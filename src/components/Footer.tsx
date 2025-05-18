@@ -1,4 +1,4 @@
-import { Linkedin, Instagram } from 'lucide-react';
+import { Linkedin, Instagram , Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -11,6 +11,9 @@ export default function Footer() {
             </a>
             <a href="#" className="hover:text-primary transition-colors">
               <Instagram size={24} />
+            </a>
+            <a href="#" className="hover:text-primary transition-colors">
+              <Mail size={24} />
             </a>
           </div>
           
